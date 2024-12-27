@@ -16,7 +16,7 @@ public class Solution
         To keep things simple, since the given max value is guaranteed to be pow(10, 9), 
         the current method is applied, which is basically 'sizeSumOfDigitsToValues = 1 + (numberOfDigitsInMaxValue - 1) x 9'
          */
-        int sizeSumOfDigitsToValues = 1 + calculateSumOfDigits(RANGE_OF_VALUES[1] - 1);
+        int sizeSumOfDigitsToValues = 1 + CalculateSumOfDigits(RANGE_OF_VALUES[1] - 1);
         int[] sumOfDigitsToValues = new int[sizeSumOfDigitsToValues];
 
         int maxSumOfPairWithEqualSumOfDigits = NO_TWO_ELEMENTS_WITH_SAME_SUM_OF_DIGITS_FOUND;
