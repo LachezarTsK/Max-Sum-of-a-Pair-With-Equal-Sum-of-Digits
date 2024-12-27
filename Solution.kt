@@ -21,7 +21,7 @@ class Solution {
         val sizeSumOfDigitsToValues = 1 + calculateSumOfDigits(RANGE_OF_VALUES[1] - 1)
         val sumOfDigitsToValues = IntArray(sizeSumOfDigitsToValues)
 
-        var maxSum = NO_TWO_ELEMENTS_WITH_SAME_SUM_OF_DIGITS_FOUND
+        var maxSumOfPairWithEqualSumOfDigits = NO_TWO_ELEMENTS_WITH_SAME_SUM_OF_DIGITS_FOUND
         for (value in input) {
             val sumOfDigits = calculateSumOfDigits(value)
             if (sumOfDigitsToValues[sumOfDigits] == HAS_NO_ELEMENT) {
